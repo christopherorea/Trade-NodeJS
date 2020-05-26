@@ -12,7 +12,7 @@ contador = 2 #Este contador lleva la cuenta de las fechas ingresadas por la bd..
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="Mac30sep2012"
+  passwd="MacXXXXXX"
 )
 cur = mydb.cursor()
 cur.execute("show databases")
